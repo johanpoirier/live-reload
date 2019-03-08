@@ -1,16 +1,17 @@
 {
-  "name": "live-reload",
-  "version": "1.1.0",
-  "description": "A live reload server & client",
+  "name": "https-live-reload",
+  "version": "0.1.0",
+  "description": "An HTTPS live reload server & client",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
-  "repository": "git://github.com/Raynos/live-reload.git",
+  "repository": "git@github.com:johanpoirier/live-reload.git",
   "main": "index",
-  "homepage": "https://github.com/Raynos/live-reload",
+  "homepage": "https://github.com/johanpoirier/live-reload",
   "browserify": "browser.js",
   "contributors": [
     {
-      "name": "Jake Verbaten"
+      "name": "Jake Verbaten",
+      "name": "Johan Poirier"
     }
   ],
   "bugs": {

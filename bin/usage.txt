@@ -1,6 +1,6 @@
 Usage:
 
-  live-reload [<path>...] --port=somePort --delay=someDelay
+  live-reload [<path>...] --cert-key=pathToYourCertKeyFile --cert-file=pathToYourCertFile  --port=somePort --delay=someDelay
 
     Runs a live-reload server on the port. It listens to changes
         on one or more paths and sends reload commands to any 

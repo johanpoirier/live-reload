@@ -6,11 +6,10 @@ var argv = require("optimist").argv
 
     , Reload = require("..")
 
-    , help = argv.help || argv.h
+    , help = argv.help || argv.h;
 
 if (help) {
-    filed(path.join(__dirname, "usage.txt")).pipe(process.stdout)
+    filed(path.join(__dirname, "usage.txt")).pipe(process.stdout);
 } else {
-    Reload(argv)
+    Reload(argv);
 }
-

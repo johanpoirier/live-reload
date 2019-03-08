@@ -1,19 +1,19 @@
-var reconnect = require("reconnect/shoe")
+var reconnect = require("reconnect/shoe");
 
-module.exports = LiveReloadClient
+module.exports = LiveReloadClient;
 
 function LiveReloadClient(uri) {
     if (typeof uri === "number") {
-        uri = "http://localhost:" + uri
+        uri = "https://localhost:" + uri;
     }
 
     reconnect(function (stream) {
-        stream.on("data", ondata)
-    }).connect(uri + "/shoe")
+        stream.on("data", ondata);
+    }).connect(uri + "/shoe");
 }
 
 function ondata(data) {
     if (data === "reload") {
-        document.location.reload()
+        document.location.reload();
     }
 }

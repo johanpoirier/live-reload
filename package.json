@@ -10,7 +10,9 @@
   "browserify": "browser.js",
   "contributors": [
     {
-      "name": "Jake Verbaten",
+      "name": "Jake Verbaten"
+    },
+    {
       "name": "Johan Poirier"
     }
   ],
